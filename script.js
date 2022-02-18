@@ -20,6 +20,16 @@ document.querySelector('#font-size').addEventListener('input', function () {
    this.nextSibling.textContent = h1.style.fontSize;
 });
 
-document.querySelector('#').addEventListener('input', function() {
-   h1.style.
+
+
+document.getElementsByName('border').forEach(function (input) {
+   input.addEventListener('input', function() {
+      h1.style.border = `1px ${this.value} black`;
+   })
+})
+
+let example1 = document.querySelector('#example1');
+example1.addEventListener('click', function(event) {
+   window.location.href = "https://google.com";
+
 });

@@ -9,7 +9,7 @@
    <link rel="stylesheet" href="./style.css">
 </head>
 
-<body>
+<!-- <body>
    <input type="text" id="text">
    <h1 id="one"></h1>
 
@@ -17,14 +17,25 @@
    Background color: <input type="text" id="bg-color">
 
    <hr>
-   Font family: <input type="text" id="font-family">
+   Font family: <input type="text" id="font-family"> -->
 
 
    Font-size: <input type="range" value="32" min="16" max="50" step="1" id="font-size">
+   <br><br><br>
 
 
-   <input type="checkbox">Bold
+<label>
+   <input type="checkbox" id="normal">normal
+</label>
 
+<label>
+   <input type="checkbox" id="italic">italic
+</label>
+
+<label>
+   <input type="checkbox" id="underline">underline
+</label>
+<br><br><br>
 
    <label>
       <input type="radio" name="border" value="none" checked>None
@@ -41,6 +52,12 @@
    <label>
       <input type="radio" name="border" value="dotted" checked>dotted
    </label>
+   <br><br><br>
+
+   <label>
+      URL:<a href="#" id="example1"><input type="text"></a>
+   </label>
+
 <h1>Hello world</h1>
 
    <script src="./script.js"></script>
