@@ -9,15 +9,17 @@
   </head>
 
   <body>
-    <input type="text" id="text" value="Hello world" />
-
-    <br />
-    <label> Color: <input type="color" value="#000000" id="color" /> </label>
-    <br />
+    <input type="text" id="text" value="Hello world">
+  
+    <br>
     <label>
-      Background color: <input type="color" value="#ffffff" id="bg-color" />
+      Color: <input type="color" value="#000000" id="color">
     </label>
-    <br />
+    <br>
+    <label>
+      Background color: <input type="color" value="#ffffff" id="bg-color">
+    </label>
+    <br>
     <label>
       Font family:
       <select id="font-family">
@@ -27,35 +29,45 @@
         <option>Verdana</option>
       </select>
     </label>
-    <br/>
+    <br>
     <label>
-      Font-size:
-      <input
-        type="range"
-        value="32"
-        min="16"
-        max="50"
-        step="1"
-        id="font-size"
-      /><span>32px</span>
+      Font-size: <input type="range" value="32" min="16" max="50" step="1" id="font-size"><span>32px</span>
     </label>
-    <br />
-    <label> <input type="checkbox" checked id="bold" /> Bold </label>
-    <label> <input type="checkbox" id="italic" /> Italic </label>
-    <label> <input type="checkbox" id="underline" /> Underline </label>
-    <br />
+    <br>
+    <label>
+      <input type="checkbox" checked id="bold"> Bold
+    </label>
+    <label>
+      <input type="checkbox" id="italic"> Italic
+    </label>
+    <label>
+      <input type="checkbox" id="underline"> Underline
+    </label>
+    <br>
     Border:
     <label>
-      <input type="radio" name="border" value="none" checked /> None
+      <input type="radio" name="border" value="none" checked> None
     </label>
-    <label> <input type="radio" name="border" value="solid" /> Solid </label>
-    <label> <input type="radio" name="border" value="dashed" /> Dashed </label>
-    <label> <input type="radio" name="border" value="dotted" /> Dotted </label>
-    <label> <input type="radio" name="border" value="double" /> Double </label>
-    <label> <input type="radio" name="border" value="groove" /> Groove </label>
-    <br />
-    <label> URL: <input type="url" id="url" value="" /> </label>
-
+    <label>
+      <input type="radio" name="border" value="solid"> Solid
+    </label>
+    <label>
+      <input type="radio" name="border" value="dashed"> Dashed
+    </label>
+    <label>
+      <input type="radio" name="border" value="dotted"> Dotted
+    </label>
+    <label>
+      <input type="radio" name="border" value="double"> Double
+    </label>
+    <label>
+      <input type="radio" name="border" value="groove"> Groove
+    </label>
+    <br>
+    <label>
+      URL: <input type="url" id="url" value="">
+    </label>
+  
     <h1>Hello world</h1>
 
     <script src="scripts.js"></script>
